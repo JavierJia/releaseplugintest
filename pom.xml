@@ -5,24 +5,24 @@
 	<version>0.0.6-SNAPSHOT</version>
 	<name>Maven Release Plugin Test</name>
 	<description>The purpose of this project is symply to test the Maven Release Plugin</description>
-	<url>https://github.com/tarator/releaseplugintest</url>
+	<url>https://github.com/JavierJia/releaseplugintest</url>
 
 	<scm>
-		<connection>scm:git:https://github.com/tarator/releaseplugintest.git</connection>
-		<developerConnection>scm:git:https://github.com/tarator/releaseplugintest.git</developerConnection>
-		<url>https://github.com/tarator/releaseplugintest</url>
+		<connection>scm:git:https://github.com/JavierJia/releaseplugintest.git</connection>
+		<developerConnection>scm:git:https://github.com/JavierJia/releaseplugintest.git</developerConnection>
+		<url>https://github.com/JavierJia/releaseplugintest</url>
 		<tag>HEAD</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
 			<id>fakerepo</id>
 			<name>Local file system</name>
-			<url>file:///home/tarator/fakerepo</url>
+			<url>file:./fakerepo</url>
 		</repository>
 		<snapshotRepository>
 			<id>fakesnapshotrepo</id>
 			<name>Local file system</name>
-			<url>file:///home/tarator/fakereposnapshots</url>
+            <url>file:./fakereposnapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
