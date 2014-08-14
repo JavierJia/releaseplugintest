@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>name.abenthung</groupId>
 	<artifactId>releaseplugintest</artifactId>
-	<version>0.0.7</version>
+	<version>0.0.7-SNAPSHOT</version>
 	<name>Maven Release Plugin Test</name>
 	<description>The purpose of this project is symply to test the Maven Release Plugin</description>
 	<url>https://github.com/JavierJia/releaseplugintest</url>
@@ -10,7 +10,7 @@
 	<scm>
 		<connection>scm:git:git@github.com/JavierJia/releaseplugintest.git</connection>
         <url>https://github.com/JavierJia/releaseplugintest</url>
-		<tag>releaseplugintest-0.0.7</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
