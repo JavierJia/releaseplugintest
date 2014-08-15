@@ -6,6 +6,7 @@
 	<name>Maven Release Plugin Test</name>
 	<description>The purpose of this project is symply to test the Maven Release Plugin</description>
 	<url>https://github.com/JavierJia/releaseplugintest</url>
+    <packaging>pom</packaging>
 
 	<scm>
         <connection>scm:git:https://github.com/JavierJia/releaseplugintest.git</connection>
@@ -25,38 +26,8 @@
 		</snapshotRepository>
 	</distributionManagement>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-release-plugin</artifactId>
-				<version>2.4.2</version>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.scm</groupId>
-						<artifactId>maven-scm-provider-gitexe</artifactId>
-						<version>1.9</version>
-					</dependency>
-				</dependencies>
-			</plugin>
-		</plugins>
-	</build>
-
-	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.10</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
+    <modules>
+        <module>deep/deep/deep</module>
+    </modules>
 </project>
+
